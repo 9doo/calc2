@@ -5,8 +5,8 @@ import (
 	"encoding/json"
 	"net/http"
 
-	"calc_service/internal/models"
-	"calc_service/internal/orchestrator"
+	"calc2/internal/models"
+	"calc2/internal/orchestrator"
 )
 
 var orchestratorInstance = orchestrator.NewOrchestrator()
