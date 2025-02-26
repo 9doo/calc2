@@ -8,7 +8,7 @@ import (
 	"strings"
 	"sync"
 	"time"
-	"calc_service/internal/models"
+	"calc2/internal/models"
 )
 
 type Orchestrator struct {
