@@ -5,8 +5,8 @@ import (
 	"net/http"
 
 	"github.com/9doo/calc2/internal/agent"
-	"calc_service/internal/handlers"
-	"calc_service/internal/orchestrator"
+	"github.com/9doo/calc2/handlers"
+	"github.com/9doo/calc2/orchestrator"
 )
 
 func main() {
