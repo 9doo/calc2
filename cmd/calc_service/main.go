@@ -4,7 +4,7 @@ import (
 	"log"
 	"net/http"
 
-	"calc_service/internal/agent"
+	"github.com/9doo/calc2/internal/agent"
 	"calc_service/internal/handlers"
 	"calc_service/internal/orchestrator"
 )
