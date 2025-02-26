@@ -14,7 +14,11 @@
 ```
     go run ./cmd/calc_service/main.go
 ```
-6. Сервис будет доступен по адресу: ```http://localhost:8080/api/v1/calculate```
+6.Если команда не сработала, выполните следующую команду и вернитесь к шагу 5:
+```
+    git restore --source=HEAD :/
+```
+7. Сервис будет доступен по адресу: ```http://localhost:8080/api/v1/calculate```
 
 ### Как сменить порт (для Windiws)?
 1. Для этого нужно собрать calc.exe 
