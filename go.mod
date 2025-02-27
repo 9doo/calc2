@@ -1,3 +1,3 @@
-module github.com/9doo/calc2
+module calc_service
 
-go 1.21.1
+go 1.23.0
