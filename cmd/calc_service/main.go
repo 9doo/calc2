@@ -4,9 +4,9 @@ import (
 	"log"
 	"net/http"
 
-	"github.com/9doo/calc2/internal/agent"
-	"github.com/9doo/calc2/internal/handlers"
-	"github.com/9doo/calc2/internal/orchestrator"
+	"calc_service/internal/agent"
+	"calc_service/internal/handlers"
+	"calc_service/internal/orchestrator"
 )
 
 func main() {
