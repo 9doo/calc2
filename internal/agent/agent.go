@@ -6,9 +6,9 @@ import (
 	"strconv"
 	"time"
 
-	"calc2/internal/evaluator"
-	"calc2/internal/models"
-	"calc2/internal/orchestrator"
+	"calc_service/internal/evaluator"
+	"calc_service/internal/models"
+	"calc_service/internal/orchestrator"
 )
 type Agent struct {
 	orchestrator *orchestrator.Orchestrator
